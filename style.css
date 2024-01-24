@@ -1,28 +1,21 @@
-/* Reset de Estilos Padrão do Navegador */
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
-/* Configurações Gerais */
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-}
+/* ... (seu código CSS existente) */
 
 /* Estilos do Cabeçalho */
 header {
     background-color: #333;
     color: #fff;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav ul {
     list-style: none;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
     margin-right: 20px;
 }
 
@@ -34,20 +27,24 @@ nav a {
 /* Estilos da Seção Principal */
 main {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
     color: #333;
+    text-align: center;
 }
 
 #home {
     margin-top: 20px;
+    text-align: center;
 }
 
 img {
     max-width: 100%;
     height: auto;
-    display: block;
     margin: 20px 0;
 }
 
@@ -57,13 +54,14 @@ h2 {
     margin-top: 20px;
 }
 
-/* Estilos do Rodapé */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+#historia, #cultura, #gastronomia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#historia img, #cultura img, #gastronomia img {
+    margin: 20px 0;
+}
+
+/* ... (seu código CSS existente) */
